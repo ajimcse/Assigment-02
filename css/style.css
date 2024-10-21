@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+body{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+  
+    font-style: normal;
+   
+    background-color: rgba(0,0,0,0.898);
+    color: white;
+}
+main{
+    max-width: 1260px;
+    margin: 0 auto;
+}
+/* ================= */
+/* ==========================Navber-section-stret====================== */
+.head-title h1{
+    font-size: 46px;
+    font-weight: 700;
+    color: rgba(230, 83, 60, 1) ;
+}
+
+.main-navber-contianer{
+    background-color: rgba(0,0,0,0.898);
+}
+.navber-main-container{
+    display: flex;
+    background-color: rgba(0,0,0,0.898);
+    justify-content: space-between;
+    max-width: 1260px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.nav-icon{
+margin-top: 12px;
+}
+.nav-icon button{
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: rgba(0,0,0,0.898);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+}
+.btn-span{
+    background-color: rgba(230, 83, 60, 1) ;
+    padding: 12px;
+    border-radius: 8px;
+}
+.hemaber-nav-menu{
+    display: none;
+}
+
+
+
+@media screen and (max-width:900px) {
+    .navber-main-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-icon{
+        margin-top: 20px;
+    }
+  
+}
+
+
+@media screen and (max-width:560px) {
+   
+    .hemaber-nav-menu{
+        display: block;
+    }
+     .nav-icon{
+        display: none;
+     }
+     .navber-main-container{
+        flex-direction: row;
+     }
+     .hemaber-nav-menu i{
+       color: wheat;
+     }
+}
+/* ============navber-section-End-================== */
+
+/* ======================banner-section-Start=========== */
+.header-anner-section{
+    
+    max-width: 1260px;
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    background-color: rgba(0,0,0,0.898);
+    align-items: center;
+}
+.banner-title-main{
+   width: 560px;
+   height: 220px;
+   justify-content: center;
+   color: white;
+}
+.banner-title{
+    font-size: 56px;
+   font-weight: 800;
+}
+.banner-img{
+   margin-left: 200px;
+
+}
+.banner-btn{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 15px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(230, 83, 60, 1) ;
+    margin-top: 30px;
+    border: none;
+}
+
+/* =================banner-section-end================= */
+
+/* ================change-section-start=============== */ 
+.change-main-section{
+    margin-top: 50px;
+}
+.change-main-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+   text-align: center;
+   padding-top:80px ;
+ 
+}
+.change-title{
+    text-align: center;
+   width: 450px;
+   margin: 0 auto;
+   
+}
+.change-title-head-descption{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+.change-title-head{
+    font-size: 40px;
+    font-weight: 700;
+}
+.change-img img{
+    border-radius: 100px;
+    
+}
+.change-titels{
+    font-size: 32px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+.chanhe-descption{
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/*=================change-section-end======================== */
