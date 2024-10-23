@@ -47,10 +47,10 @@ border-radius: 6px;
   padding: 10px;
   font-size: 16px;
   font-weight: 500;
-  background: rgba(0,0,0,0.898);
-  
-  /* color: white; */
-  border-radius: 5px;
+  background:rgba(0,0,0,0.898);
+  margin-right: 15px;
+  color: white;
+  border-radius: 20px;
   border: none;
   text-align: center;
   
@@ -162,7 +162,7 @@ width: 100%;
 .btn-banner1{
     margin-top: 20px;
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 20px;
    border: 1px solid;
     color: white;
     background: rgba(0,0,0,0.898);
@@ -217,7 +217,7 @@ width: 100%;
     font-size: 16px;
     line-height: 18px;
     font-weight: 400;
-    color: rgba(255, 255, 255, 0.5);
+     color: rgba(255, 255, 255, 0.5);
 }
 @media screen and (max-width:560px) {
    
@@ -264,6 +264,61 @@ width: 100%;
 }
 
 
+/* ==========bunnes section start=========== */
+.Exercises-Box{
+    text-align: center;
+    margin-top: 60px;
+}
+.Exercises-Box h1{
+    font-size: 60px;
+    font-weight: 800;
+}
+.bonnes-section{ 
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 120px;
+    
+}
+.bunnes-title{
+  
+    border-radius: 10px;
+    width: 350px;
+    height: 450px;
+    margin: 0 auto;
+    box-shadow: rgba(253, 253, 255, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    padding-bottom: 50px;
+}
+.bunnes-title img{
+    width: 60%;
+    height: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+    
+    
+}
+.bunnes-title h1{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+.bunnes-title p{
+    color: rgba(255, 255, 255, 0.5);
+}
+.doler{
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(118, 103, 84);
+}
+.box-btn{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(230, 83, 60, 1) ;
+    border: none;
+    color: wheat;
+}
+/* ======bunnes section end============= */
 /* ===============run-in-section-end================== */
 
 /* ============bim section start============= */
