@@ -4,6 +4,7 @@
     padding: 0px;
     margin: 0px;
     
+    
 }
 body{
     font-family: "Inter", sans-serif;
@@ -79,7 +80,7 @@ border-radius: 6px;
 }
 
 
-@media screen and (max-width:560px) {
+@media screen and (max-width:576px) {
    
     .hemaber-nav-menu{
         display: block;
@@ -169,7 +170,7 @@ width: 100%;
 }
 
 
-@media screen and (max-width:560px) {
+@media screen and (max-width:576px) {
    
     .banner-main-section{
         flex-direction: column;
@@ -219,7 +220,7 @@ width: 100%;
     font-weight: 400;
      color: rgba(255, 255, 255, 0.5);
 }
-@media screen and (max-width:560px) {
+@media screen and (max-width:576px) {
    
     .change-main-container{
         grid-template-columns: 1fr;
@@ -248,7 +249,7 @@ width: 100%;
    border-radius: 8px;
    
 }
-@media screen and (max-width:560px) {
+@media screen and (max-width:576px) {
    
     .third-section{
         flex-direction: column;
@@ -317,6 +318,14 @@ width: 100%;
     background-color: rgba(230, 83, 60, 1) ;
     border: none;
     color: wheat;
+}
+@media screen and (max-width:576px) {
+   
+    .bonnes-section{
+        flex-direction: column;
+        text-align: center;
+    }
+    
 }
 /* ======bunnes section end============= */
 /* ===============run-in-section-end================== */
@@ -420,7 +429,7 @@ th,td{
 table > tbody>tr>td{
     color: rgba(255, 255, 255, 0.5);
 }
-@media screen and (max-width:560px) {
+@media screen and (max-width:576px) {
    
     .Table-and-from--container{
         flex-direction: column;
@@ -489,7 +498,7 @@ top: 200px;
 }
 
 
-@media screen and (max-width:560px) {
+@media screen and (max-width:576px) {
    
     .meet-our-section{
         grid-template-columns: 1fr;
@@ -523,12 +532,7 @@ color:  rgba(230, 83, 60, 1) ;
     color: rgba(255, 255, 255, 0.5); 
 }
 
-.button-footer{
-    text-align: center;
-    background-color: rgb(18, 19, 19);
-    padding: 20px;
 
-}
 .get-section h3{
     font-size: 25px;
     font-weight: 600;
@@ -540,13 +544,19 @@ color:  rgba(230, 83, 60, 1) ;
      font-weight: 400;
 
 }
+.button-footer{
+    text-align: center;
+    background-color: rgb(18, 19, 19);
+    padding: 25px;
+
+}
 .button-footer a{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.5); 
 }
 
 
-@media screen and (max-width:560px) {
+@media screen and (max-width:576px) {
    
     .footer-section{
      flex-direction: column;
