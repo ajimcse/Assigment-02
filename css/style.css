@@ -11,7 +11,7 @@ body{
   
     font-style: normal;
    
-    background-color: rgba(0,0,0,0.898);
+    background: rgba(0,0,0,0.898);
     color: white;
 }
 main{
@@ -27,11 +27,10 @@ main{
 }
 
 .main-navber-contianer{
-    background-color: rgba(0,0,0,0.898);
+   
 }
 .navber-main-container{
     display: flex;
-    background-color: rgba(0,0,0,0.898);
     justify-content: space-between;
     max-width: 1260px;
     margin: 0 auto;
@@ -39,21 +38,28 @@ main{
 }
 .nav-icon{
 margin-top: 12px;
+
+margin-left: 0px;
+background: rgba(0,0,0,0.898);
+border-radius: 6px;
 }
 .nav-icon button{
   padding: 10px;
   font-size: 16px;
   font-weight: 500;
-  background-color: rgba(0,0,0,0.898);
-  color: white;
+  background: rgba(0,0,0,0.898);
+  
+  /* color: white; */
   border-radius: 5px;
   border: none;
   text-align: center;
+  
 }
 .btn-span{
     background-color: rgba(230, 83, 60, 1) ;
-    padding: 12px;
+    padding: 10px;
     border-radius: 8px;
+    
 }
 .hemaber-nav-menu{
     display: none;
@@ -91,40 +97,84 @@ margin-top: 12px;
 /* ============navber-section-End-================== */
 
 /* ======================banner-section-Start=========== */
-.header-anner-section{
-    
-    max-width: 1260px;
-    margin: 0 auto;
+
+.banner-main-section{
     display: flex;
-    width: 100%;
-    background-color: rgba(0,0,0,0.898);
     align-items: center;
+    justify-content: space-between;
 }
-.banner-title-main{
-   width: 560px;
-   height: 220px;
-   justify-content: center;
-   color: white;
+.banner-titles{
+    width: 50%;
+  
 }
-.banner-title{
-    font-size: 56px;
-   font-weight: 800;
+.banner-titles h1{
+    font-size: 50px;
+    font-weight: 800;
 }
-.banner-img{
-   margin-left: 200px;
-
-}
-.banner-btn{
-    font-size: 20px;
+.banner-titles p{
+    font-size: 16px;
     font-weight: 400;
-    padding: 15px;
+    margin-top: 20px;
+}
+.img-conatiner{
+position: relative;
+margin-right: 60px;
+}
+.offer-btn{
+    position: absolute;
+    top:210px;
+    left: 205px;
+   
+    width: 40%;
     border-radius: 5px;
-    color: rgb(255, 255, 255);
-    background-color: rgba(230, 83, 60, 1) ;
-    margin-top: 30px;
+    padding: 12px;
+   
+    background-color: rgba(186, 186, 144, 0.216);
+}
+.offer-btn2 p{
+   margin-left:20px;
+   text-align: center;
+}
+.offer-btn2{
+    position: absolute;
+    top:450px;
+    left: 40px;
+    width: 40%;
+    border-radius: 5px;
+    padding: 12px;
+    background-color: rgba(186, 186, 144, 0.216);
+}
+.img-conatiner img{
+width: 100%;
+
+}
+.fa-solid{
+    color: rgba(230, 83, 60, 1) ;
+}
+.btn-banner{
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
     border: none;
+    color: white;
+    background-color: rgba(230, 83, 60, 1) ;
+}
+.btn-banner1{
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+   border: 1px solid;
+    color: white;
+    background: rgba(0,0,0,0.898);
 }
 
+
+@media screen and (max-width:560px) {
+   
+    .banner-main-section{
+        flex-direction: column;
+    }
+}
 /* =================banner-section-end================= */
 
 /* ================change-section-start=============== */ 
@@ -190,17 +240,10 @@ margin-top: 12px;
     padding: 60px;
    
 }
-.run-in-title-section{
-    /* width: 400px;
-    height: 380px; */
- 
 
-    
-    
-}
 .run-in-img-section img{
-    width: 300px;
-    height: 280px;
+    width: 350px;
+    height: 300px;
    justify-content: center;
    border-radius: 8px;
    
@@ -209,15 +252,158 @@ margin-top: 12px;
    
     .third-section{
         flex-direction: column;
+        text-align: center;
     }
     .run-in-img-section img{
     margin-top: 50px;
+    width: 100%;
+    }
+    .run-in-title-section{
+   text-align: center;
     }
 }
 
 
 /* ===============run-in-section-end================== */
+
+/* ============bim section start============= */
+
+.from-section-title{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+#area {
+    width: 80%;
+}
+.bmi-main-hade{
+    margin-left: 160px;
+margin-top: 50px;
+}
+.bmi-main-hade h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+.bmi-main-hade{
+    font-size: 16px;
+    font-weight: 400;
+}
+.Table-and-from--container{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+}
+.table-section{
+    width: 47%;
+   
+}
+.from-conatler{
+display: flex;
+flex-direction: column;
+width: 50%;
+
+}
+.from-field{
+    width: 50%;
+}
+.from-field-text-area textarea{
+    width: 100%;
+}
+.from-conatler input,textarea, select{
+    border: 1px solid chartreuse;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+}
+.sex{
+    padding-left: 118px;
+    text-align: start;
+}
+.from-title{
+    margin-left: 20px;
+}
+.from-title h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.from-title p{
+    font-size: 16px;
+    font-weight: 400;
+}
+#textarea{
+    padding-left: 120px;
+}
+.table-titles{
+    text-align: start;
+    font-size: 25px;
+}
+.table-section{
+
+}
+table{
+    border-collapse: collapse;
+    margin-top: 40px;
+}
+th,td{
+    border: 1px solid rgb(230, 228, 228);
+    padding: 22px;
+    
+}
+.calc-btn{
+    padding:20px ;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 23px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(230, 83, 60, 1) ;
+   color: white;
+
+   font-size: 20px;
+
+}
+table > tbody>tr>td{
+    color: rgba(255, 255, 255, 0.5);
+}
+@media screen and (max-width:560px) {
+   
+    .Table-and-from--container{
+        flex-direction: column;
+    }
+    .bmi-main-hade{
+ 
+        margin-left: 60px;
+    }
+    .table-section{
+        width: 100%;
+    }
+    .from-title {
+        width: 100%;
+    }
+    .from-section-title{
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/*==================== bmi section end ================ */
 /* ==========meet our section starts============ */
+.meet-our-head-title{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.meet-title{
+    font-size: 45px;
+    font-weight: 700;
+}
+.meet-title p{
+    color: rgba(255, 255, 255, 0.5); 
+    font-size: 16px;
+    font-weight: 400;
+}
 .meet-our-section{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -232,6 +418,7 @@ margin-top: 12px;
     width: 400px;
     height: 250px;
     border-radius: 5px;
+    
 }
 .our-img-section{
 position: relative;
@@ -261,3 +448,63 @@ top: 200px;
 
 
 /* ==============meet our section end */
+
+/* ==========footer section start========== */
+.footer-section{
+    display: flex;
+    align-items: center;
+    
+    margin: 80px;
+    justify-content: space-around;
+}
+
+.footer-main-title{
+font-size: 48px;
+color:  rgba(230, 83, 60, 1) ;
+}
+.footer-descption{
+    font-size: 16;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5); 
+}
+
+.button-footer{
+    text-align: center;
+    background-color: rgb(18, 19, 19);
+    padding: 20px;
+
+}
+.get-section h3{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.get-section p{
+    font-size: 16px;
+     color: rgba(255, 255, 255, 0.5); 
+     font-weight: 400;
+
+}
+.button-footer a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5); 
+}
+
+
+@media screen and (max-width:560px) {
+   
+    .footer-section{
+     flex-direction: column;
+    align-items: start;
+    
+    }
+    .fitness-title{  
+    margin-bottom: 20px;
+    }
+    .get-section{
+        margin-bottom: 15px;
+    }
+    
+    
+}
+/* ============footer section end========= */
