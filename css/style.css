@@ -228,6 +228,12 @@ width: 100%;
     .change-main-container{
         grid-template-columns: 1fr;
     }
+    .change-title{
+        text-align: center;
+       width: 100%;
+    
+       
+    }
 }
 
 /*=================change-section-end======================== */
@@ -511,6 +517,7 @@ top: 200px;
     .meet-our-section{
         grid-template-columns: 1fr;
         text-align: center;
+        width: 100%;
     }
     .img-titles{
         left: 100px;
