@@ -175,6 +175,9 @@ width: 100%;
     .banner-main-section{
         flex-direction: column;
     }
+    .img-conatiner {
+        margin-right: 0px;
+    }
 }
 /* =================banner-section-end================= */
 
@@ -328,10 +331,21 @@ width: 100%;
     
 }
 /* ======bunnes section end============= */
-/* ===============run-in-section-end================== */
+
 
 /* ============bim section start============= */
-
+.Table-and-from--container{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+  
+    
+}
+.table-main-conainer{
+    background-color: rgb(78, 77, 76);
+    border-radius: 10px;
+   
+}
 .from-section-title{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -351,11 +365,7 @@ margin-top: 50px;
     font-size: 16px;
     font-weight: 400;
 }
-.Table-and-from--container{
-    display: flex;
-    justify-content: space-between;
-    padding: 80px;
-}
+
 .table-section{
     width: 47%;
    
@@ -401,9 +411,7 @@ width: 50%;
     text-align: start;
     font-size: 25px;
 }
-.table-section{
 
-}
 table{
     border-collapse: collapse;
     margin-top: 40px;
